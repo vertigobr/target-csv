@@ -1,0 +1,6 @@
+{
+    "delimiter": ",",
+    "quotechar": "'",
+    "destination_path": "/opt/config/",
+    "disable_collection": "true"
+}

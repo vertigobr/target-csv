@@ -7,3 +7,4 @@ RUN apk update && \
 
 WORKDIR /app
 ENTRYPOINT ["target-csv"]
+CMD ["-c","/opt/config/config.json"]

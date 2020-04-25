@@ -1,0 +1,260 @@
+{"type": "SCHEMA", "stream": "public-list", "schema": {"type": "object", "properties": {"id": {"type": ["string"], "maxLength": 64}, "value": {"type": ["null", "string"], "maxLength": 64}}, "definitions": {"sdc_recursive_integer_array": {"type": ["null", "integer", "array"], "items": {"$ref": "#/definitions/sdc_recursive_integer_array"}}, "sdc_recursive_number_array": {"type": ["null", "number", "array"], "items": {"$ref": "#/definitions/sdc_recursive_number_array"}}, "sdc_recursive_string_array": {"type": ["null", "string", "array"], "items": {"$ref": "#/definitions/sdc_recursive_string_array"}}, "sdc_recursive_boolean_array": {"type": ["null", "boolean", "array"], "items": {"$ref": "#/definitions/sdc_recursive_boolean_array"}}, "sdc_recursive_timestamp_array": {"type": ["null", "string", "array"], "format": "date-time", "items": {"$ref": "#/definitions/sdc_recursive_timestamp_array"}}, "sdc_recursive_object_array": {"type": ["null", "object", "array"], "items": {"$ref": "#/definitions/sdc_recursive_object_array"}}}}, "key_properties": ["id"], "bookmark_properties": []}
+{"type": "STATE", "value": {"bookmarks": {"public-list": {"last_replication_method": "FULL_TABLE", "version": 1587772721953}}, "currently_syncing": "public-list"}}
+{"type": "ACTIVATE_VERSION", "stream": "public-list", "version": 1587772721953}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AF", "value": "Afghanistan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AX", "value": "\u00c5land Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AL", "value": "Albania"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DZ", "value": "Algeria"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AS", "value": "American Samoa"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AD", "value": "Andorra"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AO", "value": "Angola"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AI", "value": "Anguilla"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AQ", "value": "Antarctica"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AG", "value": "Antigua & Barbuda"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AR", "value": "Argentina"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AM", "value": "Armenia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AW", "value": "Aruba"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AC", "value": "Ascension Island"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AU", "value": "Australia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AT", "value": "Austria"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AZ", "value": "Azerbaijan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BS", "value": "Bahamas"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BH", "value": "Bahrain"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BD", "value": "Bangladesh"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BB", "value": "Barbados"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BY", "value": "Belarus"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BE", "value": "Belgium"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BZ", "value": "Belize"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BJ", "value": "Benin"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BM", "value": "Bermuda"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BT", "value": "Bhutan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BO", "value": "Bolivia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BA", "value": "Bosnia & Herzegovina"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BW", "value": "Botswana"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BR", "value": "Brazil"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IO", "value": "British Indian Ocean Territory"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VG", "value": "British Virgin Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BN", "value": "Brunei"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BG", "value": "Bulgaria"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BF", "value": "Burkina Faso"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BI", "value": "Burundi"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KH", "value": "Cambodia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CM", "value": "Cameroon"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CA", "value": "Canada"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IC", "value": "Canary Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CV", "value": "Cape Verde"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BQ", "value": "Caribbean Netherlands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KY", "value": "Cayman Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CF", "value": "Central African Republic"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "EA", "value": "Ceuta & Melilla"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TD", "value": "Chad"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CL", "value": "Chile"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CN", "value": "China"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CX", "value": "Christmas Island"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CC", "value": "Cocos (Keeling) Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CO", "value": "Colombia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KM", "value": "Comoros"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CG", "value": "Congo - Brazzaville"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CD", "value": "Congo - Kinshasa"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CK", "value": "Cook Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CR", "value": "Costa Rica"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CI", "value": "C\u00f4te d\u2019Ivoire"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "HR", "value": "Croatia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CU", "value": "Cuba"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CW", "value": "Cura\u00e7ao"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CY", "value": "Cyprus"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CZ", "value": "Czechia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DK", "value": "Denmark"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DG", "value": "Diego Garcia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DJ", "value": "Djibouti"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DM", "value": "Dominica"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DO", "value": "Dominican Republic"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "EC", "value": "Ecuador"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "EG", "value": "Egypt"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SV", "value": "El Salvador"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GQ", "value": "Equatorial Guinea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ER", "value": "Eritrea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "EE", "value": "Estonia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SZ", "value": "Eswatini"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ET", "value": "Ethiopia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FK", "value": "Falkland Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FO", "value": "Faroe Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FJ", "value": "Fiji"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FI", "value": "Finland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FR", "value": "France"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GF", "value": "French Guiana"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PF", "value": "French Polynesia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TF", "value": "French Southern Territories"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GA", "value": "Gabon"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GM", "value": "Gambia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GE", "value": "Georgia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "DE", "value": "Germany"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GH", "value": "Ghana"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GI", "value": "Gibraltar"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GR", "value": "Greece"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GL", "value": "Greenland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GD", "value": "Grenada"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GP", "value": "Guadeloupe"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GU", "value": "Guam"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GT", "value": "Guatemala"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GG", "value": "Guernsey"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GN", "value": "Guinea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GW", "value": "Guinea-Bissau"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GY", "value": "Guyana"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "HT", "value": "Haiti"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "HN", "value": "Honduras"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "HK", "value": "Hong Kong SAR China"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "HU", "value": "Hungary"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IS", "value": "Iceland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IN", "value": "India"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ID", "value": "Indonesia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IR", "value": "Iran"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IQ", "value": "Iraq"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IE", "value": "Ireland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IM", "value": "Isle of Man"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IL", "value": "Israel"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "IT", "value": "Italy"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "JM", "value": "Jamaica"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "JP", "value": "Japan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "JE", "value": "Jersey"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "JO", "value": "Jordan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KZ", "value": "Kazakhstan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KE", "value": "Kenya"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KI", "value": "Kiribati"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "XK", "value": "Kosovo"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KW", "value": "Kuwait"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KG", "value": "Kyrgyzstan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LA", "value": "Laos"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LV", "value": "Latvia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LB", "value": "Lebanon"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LS", "value": "Lesotho"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LR", "value": "Liberia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LY", "value": "Libya"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LI", "value": "Liechtenstein"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LT", "value": "Lithuania"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LU", "value": "Luxembourg"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MO", "value": "Macao SAR China"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MG", "value": "Madagascar"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MW", "value": "Malawi"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MY", "value": "Malaysia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MV", "value": "Maldives"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ML", "value": "Mali"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MT", "value": "Malta"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MH", "value": "Marshall Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MQ", "value": "Martinique"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MR", "value": "Mauritania"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MU", "value": "Mauritius"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "YT", "value": "Mayotte"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MX", "value": "Mexico"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "FM", "value": "Micronesia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MD", "value": "Moldova"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MC", "value": "Monaco"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MN", "value": "Mongolia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ME", "value": "Montenegro"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MS", "value": "Montserrat"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MA", "value": "Morocco"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MZ", "value": "Mozambique"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MM", "value": "Myanmar (Burma)"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NA", "value": "Namibia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NR", "value": "Nauru"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NP", "value": "Nepal"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NL", "value": "Netherlands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NC", "value": "New Caledonia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NZ", "value": "New Zealand"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NI", "value": "Nicaragua"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NE", "value": "Niger"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NG", "value": "Nigeria"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NU", "value": "Niue"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NF", "value": "Norfolk Island"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KP", "value": "North Korea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MK", "value": "North Macedonia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MP", "value": "Northern Mariana Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "NO", "value": "Norway"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "OM", "value": "Oman"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PK", "value": "Pakistan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PW", "value": "Palau"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PS", "value": "Palestinian Territories"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PA", "value": "Panama"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PG", "value": "Papua New Guinea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PY", "value": "Paraguay"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PE", "value": "Peru"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PH", "value": "Philippines"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PN", "value": "Pitcairn Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PL", "value": "Poland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PT", "value": "Portugal"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "XA", "value": "Pseudo-Accents"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "XB", "value": "Pseudo-Bidi"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PR", "value": "Puerto Rico"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "QA", "value": "Qatar"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "RE", "value": "R\u00e9union"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "RO", "value": "Romania"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "RU", "value": "Russia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "RW", "value": "Rwanda"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "WS", "value": "Samoa"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SM", "value": "San Marino"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ST", "value": "S\u00e3o Tom\u00e9 & Pr\u00edncipe"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SA", "value": "Saudi Arabia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SN", "value": "Senegal"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "RS", "value": "Serbia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SC", "value": "Seychelles"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SL", "value": "Sierra Leone"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SG", "value": "Singapore"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SX", "value": "Sint Maarten"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SK", "value": "Slovakia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SI", "value": "Slovenia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SB", "value": "Solomon Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SO", "value": "Somalia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ZA", "value": "South Africa"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GS", "value": "South Georgia & South Sandwich Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KR", "value": "South Korea"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SS", "value": "South Sudan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ES", "value": "Spain"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LK", "value": "Sri Lanka"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "BL", "value": "St. Barth\u00e9lemy"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SH", "value": "St. Helena"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "KN", "value": "St. Kitts & Nevis"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "LC", "value": "St. Lucia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "MF", "value": "St. Martin"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "PM", "value": "St. Pierre & Miquelon"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VC", "value": "St. Vincent & Grenadines"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SD", "value": "Sudan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SR", "value": "Suriname"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SJ", "value": "Svalbard & Jan Mayen"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SE", "value": "Sweden"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "CH", "value": "Switzerland"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "SY", "value": "Syria"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TW", "value": "Taiwan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TJ", "value": "Tajikistan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TZ", "value": "Tanzania"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TH", "value": "Thailand"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TL", "value": "Timor-Leste"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TG", "value": "Togo"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TK", "value": "Tokelau"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TO", "value": "Tonga"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TT", "value": "Trinidad & Tobago"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TA", "value": "Tristan da Cunha"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TN", "value": "Tunisia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TR", "value": "Turkey"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TM", "value": "Turkmenistan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TC", "value": "Turks & Caicos Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "TV", "value": "Tuvalu"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "UM", "value": "U.S. Outlying Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VI", "value": "U.S. Virgin Islands"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "UG", "value": "Uganda"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "UA", "value": "Ukraine"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "AE", "value": "United Arab Emirates"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "GB", "value": "United Kingdom"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "US", "value": "United States"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "UY", "value": "Uruguay"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "UZ", "value": "Uzbekistan"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VU", "value": "Vanuatu"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VA", "value": "Vatican City"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VE", "value": "Venezuela"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "VN", "value": "Vietnam"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "WF", "value": "Wallis & Futuna"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "EH", "value": "Western Sahara"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "YE", "value": "Yemen"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ZM", "value": "Zambia"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "RECORD", "stream": "public-list", "record": {"id": "ZW", "value": "Zimbabwe"}, "version": 1587772721953, "time_extracted": "2020-04-24T23:58:41.953600Z"}
+{"type": "ACTIVATE_VERSION", "stream": "public-list", "version": 1587772721953}
+{"type": "STATE", "value": {"bookmarks": {"public-list": {"last_replication_method": "FULL_TABLE", "version": 1587772721953, "xmin": null}}, "currently_syncing": null}}
